@@ -23,9 +23,9 @@ export default withSiteData(() => (
     <div className="container">
       <TopBar />
       <div className="home-title">
-        <h2 className="page-subtitle">Akai</h2>
+        {/* <h2 className="page-subtitle">Akai</h2> */}
 
-        <h1 className="page-title">Webstarter 2017</h1>
+        <h1 className="page-title">Akademickie Koło Aplikacji Internetowych</h1>
         <div className="divider" />
 
         <p className="page-description">

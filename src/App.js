@@ -203,7 +203,8 @@ template{
     .home .home-title .page-title {
       font-size: 48px;
       font-size: 4.8rem;
-      margin: 0; }
+      max-width: 600px;
+      margin: auto; }
     .home .home-title .divider {
       margin: 20px auto; }
     .home .home-title .page-description {
