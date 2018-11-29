@@ -133,14 +133,14 @@ template{
   display: none; }
 /* Section stylings */
 .home {
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-color: #2f3640 !important;
   /* overwrite section:nth-child(2n+1) selector */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #eee;
-  height: 100vh;
+  min-height: 100vh;
   position: relative; }
   .home a {
     color: inherit;
@@ -193,7 +193,8 @@ template{
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 16vh 0;
+    margin-top: 16vh;
+    padding-bottom: 16vh;
     text-align: center; }
     .home .home-title .page-subtitle {
       font-size: 16px;

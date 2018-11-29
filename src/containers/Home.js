@@ -15,7 +15,11 @@ import { withSiteData } from "react-static";
 import { TopBar } from "../components/TopBar";
 
 export default withSiteData(() => (
-  <section className="home" id="home">
+  <section
+    className="home"
+    id="home"
+    style={{ backgroundImage: "url(/img/background.png)" }}
+  >
     <div className="container">
       <TopBar />
       <div className="home-title">
@@ -30,17 +34,19 @@ export default withSiteData(() => (
           Internetowych.
         </p>
 
-        <a href="#" className="button">
-          Zarezerwuj miejsce
+        <a href="https://apps.akai.org.pl" className="button">
+          Zobacz nasze projekty
         </a>
       </div>
 
-      <a className="home-scroll" href="#">
+      {/* <a className="home-scroll" href="https://apps.akai.org.pl">
         <div className="home-icon-container">
-          <div className="home-scroll-description">Dowiedz się więcej</div>
+          <div className="home-scroll-description">
+            Zobacz nasze projekty...
+          </div>
           <i className="fa fa-chevron-down" aria-hidden="true" />
         </div>
-      </a>
+      </a> */}
     </div>
   </section>
 ));
