@@ -145,33 +145,18 @@ template{
   .home a {
     color: inherit;
     text-decoration: none; }
-    .home a.button {
-      font-size: 14px;
-      font-size: 1.4rem;
-      background-color: #f9a11b;
-      border: 0;
-      border-radius: 25px;
-      color: #eee;
-      cursor: pointer;
-      font-weight: 600;
-      margin: 0 auto;
-      padding: 15px 45px;
-      -webkit-transition: background-color 0.3s ease-out;
-      transition: background-color 0.3s ease-out; }
-      .home a.button:hover {
-        background-color: #fa7800; }
     .home a.button-alt {
-      font-size: 13px;
-      font-size: 1.3rem;
-      background-color: transparent;
-      border: 1px solid #eee;
-      margin: 0;
-      padding: 10px 35px;
-      -webkit-transition: border-color 0.3s ease-out;
-      transition: border-color 0.3s ease-out; }
-      .home a.button-alt:hover {
-        background-color: #f9a11b;
-        border-color: #f9a11b; }
+          font-size: 13px;
+          font-size: 1.3rem;
+          background-color: transparent;
+          border: 1px solid #eee;
+          margin: 0;
+          padding: 10px 35px;
+          -webkit-transition: border-color 0.3s ease-out;
+          transition: border-color 0.3s ease-out; }
+          .home a.button-alt:hover {
+            background-color: #f9a11b;
+            border-color: #f9a11b; }
   .home .home-topbar {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -208,11 +193,7 @@ template{
     .home .home-title .divider {
       margin: 20px auto; }
     .home .home-title .page-description {
-      font-size: 14px;
-      font-size: 1.4rem;
-      line-height: 1.8;
-      margin: 0 auto 50px;
-      max-width: 600px; }
+       }
   .home .home-scroll {
     font-size: 13px;
     font-size: 1.3rem;

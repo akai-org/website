@@ -28,13 +28,39 @@ export default withSiteData(() => (
         <h1 className="page-title">Akademickie Koło Aplikacji Internetowych</h1>
         <div className="divider" />
 
-        <p className="page-description">
-          Zbiór prelekcji wprowadzających w świat webdevelopmentu przygotowanych
-          przez firmy IT we współpracy z Akademickim Kołem Aplikacji
-          Internetowych.
+        <p
+          css={`
+            margin: 0 auto 50px;
+            max-width: 700px;
+          `}
+        >
+          Działamy na terenie całego Poznania. Damy Ci szansę rozwinąć Twoją
+          pasję oraz wiedzę. Pokażemy Ci jak rozpocząć karierę bazując na
+          doświadczeniu i umiejętnościach - nie na papierze.
+          <br />
+          Serdecznie zapraszamy do wzięcia udziału w naszych wydarzeniach - są
+          bezpłatne i otwarte dla wszystkich.
         </p>
 
-        <a href="https://apps.akai.org.pl" className="button">
+        <a
+          href="https://apps.akai.org.pl"
+          className="button"
+          css={`
+            background-color: #f9a11b;
+            border: 0;
+            border-radius: 25px;
+            color: #eee;
+            cursor: pointer;
+            font-weight: 600;
+            margin: 0 auto;
+            padding: 15px 45px;
+            transition: background-color 0.3s ease-out;
+
+            &:hover {
+              background-color: #fa7800;
+            }
+          `}
+        >
           Zobacz nasze projekty
         </a>
       </div>
